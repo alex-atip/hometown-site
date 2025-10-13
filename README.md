@@ -5,7 +5,9 @@
 
 ## 🌐 Live Demo
 
-🔗 [https://hometown-pure-css.netlify.app/](https://hometown-pure-css.netlify.app/)
+🔗 <a href="https://hometown-pure-css.netlify.app" target="_blank">Live Demo</a>
+
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Netlify-blue?style=for-the-badge)](https://hometown-pure-css.netlify.app)
 
 ---
 

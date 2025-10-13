@@ -11,7 +11,7 @@
 
 ## 🏙️ About the Project
 
-This project was created as part of the **Scrimba Frontend Career Path**.
+This project was created as part of the **Scrimba FullStack Career Path**.
 It’s a simple landing page that highlights my **hometown, Londrina (Brazil)** — a city known for its coffee fields and modern lifestyle.
 
 I followed a **Figma design** provided in the course and recreated it entirely from scratch using **pure HTML and CSS**.

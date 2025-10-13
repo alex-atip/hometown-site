@@ -1,6 +1,7 @@
 # 🌆 Hometown Project – Londrina, Brazil 🇧🇷
 
-![Project Preview](images/preview.png)
+![Project Preview](<img width="1930" height="1296" alt="image" src="https://github.com/user-attachments/assets/5ba6dfb1-149a-478c-9201-5d084b1fca09" />
+)
 
 ## 🌐 Live Demo
 

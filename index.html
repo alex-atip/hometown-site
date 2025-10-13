@@ -1,30 +1,72 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-        
-        <!-- HERO SECTION -->
-        <div>
-            <h1>Visit Londrina</h1>
-            <h2>Londrina, Paraná – Where Brazil’s Coffee Fields Meet Modern Life.</h2>
-        </div>
-        
-        <!-- ACTIVITIES SECTION -->
-        <div>
-            <h3>Top three things to do in Londrina</h3>
-            <img src="images/igapo.jpg">
-            <img src="images/catedral.jpg">
-            <img src="images/cafe-londrina.jpg">
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- HERO SECTION -->
+    <div class="hero-section">
+      <h1 id="visit">Visit Londrina</h1>
+      <h2 id="visit-description">
+        Londrina, Paraná – Where Brazil’s Coffee Fields Meet Modern Life.
+      </h2>
+    </div>
+
+    <!-- ACTIVITIES SECTION -->
+    <div class="activities-section">
+      <h3 id="top-three">Top three things to do in Londrina</h3>
+
+      <div class="activities-container">
+        <div class="activity-item">
+          <img src="images/cafezais.png" class="todo-img" />
+          <h2 class="activity-title">Coffee Plantations</h2>
+          <p class="activity-description">
+            Visit the scenic coffee fields and learn about Londrina’s rich
+            coffee heritage.
+          </p>
         </div>
 
-        <!-- GUIDE SECTION -->
-        <div>
-            <h3>Your guide</h3>
-            <p>“I was born and raised in Londrina, and I love showing visitors how the city blends history, nature, and a modern lifestyle. There’s always something new to discover here.”</p>
-            <h4>Alexandre Oliveira</h4>
-            <img src="images/alex-photo.png">
+        <div class="activity-item">
+          <img src="images/igapo.png" class="todo-img" />
+          <h2 class="activity-title">Igapó Lake</h2>
+          <p class="activity-description">
+            Take a relaxing walk or bike ride along Londrina’s famous lakefront
+            park.
+          </p>
         </div>
-    </body>
+
+        <div class="activity-item">
+          <img src="images/catuai.png" class="todo-img" />
+          <h2 class="activity-title">Catuaí Shopping</h2>
+          <p class="activity-description">
+            Experience local fashion, food, and entertainment in the region’s
+            largest mall.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- GUIDE SECTION -->
+    <div class="guide-section">
+      <div class="guide-card">
+        <img src="images/alex-photo.png" id="my-photo" />
+
+        <div class="guide-text">
+          <h3>Your guide</h3>
+          <p>
+            “I was born in Londrina, and I love showing visitors how
+            the city blends history, nature, and a modern lifestyle. There’s
+            always something new to discover here.”
+          </p>
+          <h4>Alexandre Oliveira</h4>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

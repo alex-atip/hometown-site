@@ -1,18 +1,135 @@
-/**
-Palette: https://scrimba.com/links/hometown-palette
-RED: #E63946
-LIGHT: #F1FAEE
-AQUA: #A8DADC
-LIGHT BLUE: #457B9D
-DARK BLUE: #1D3557
-
-*/
-
 body {
-    margin: 0;
-    text-align: center;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  font-family: "Happy Monkey", system-ui;
 }
 
-img {
-    width: 100px;
+.hero-section {
+  background-image: url("images/cafe-londrina.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 20px 0;
+  height: 343px;
+  width: 720px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hero-section:hover h1 {
+  transform: scale(1.1);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+#visit {
+  font-size: 32px;
+  color: #ffffff;
+  background: #d4a373;
+  padding: 10px;
+  border-radius: 10px;
+  text-shadow: 1px 1px 1px #1d3557;
+}
+
+#visit-description {
+  font-size: 19px;
+  color: #ffffff;
+  background: #ccd5ae;
+  padding: 10px;
+  border-radius: 10px;
+  text-shadow: 1px 1px 1px #1d3557;
+
+}
+
+.activities-section {
+  background-color: #fefae0;
+  text-align: center;
+  padding: 40px 0;
+  height: 378px;
+  width: 720px;
+}
+
+.activities-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.todo-img {
+  border-radius: 50%;
+  width: 100px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.todo-img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+#top-three {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  color: #1d3557;
+  font-size: 24px;
+  margin-bottom: 60px;
+}
+
+.activity-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: #1d3557;
+}
+
+.activity-description {
+  font-size: 16px;
+  color: #1d3557;
+  margin: 8px auto 0 auto;
+  max-width: 170px;
+}
+
+.guide-section {
+  height: 394px;
+  width: 620px;
+  background: #e9edc9;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px;
+}
+
+.guide-card {
+  width: 400px;
+  height: 294px;
+  padding: 50px;
+  background: #ccd5ae;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  box-shadow: 0 5px #d4a373;
+}
+
+.guide-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 16px;
+  color: #1d3557;
+}
+
+.guide-text h3, h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+#my-photo {
+  width: 180px;
+  height: 180px;
+  border-radius: 10px;
 }
